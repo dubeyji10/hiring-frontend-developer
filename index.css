@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(250, 240, 227);
+    height: 100%;
+}
+
+.main {
+    /* margin: 10vh auto; */
+    background-color: rgb(255, 255, 170);
+    /* display: grid; */
+    grid-template-rows: 10% 90%;
+    /* grid-gap: 100px; */
+    justify-content: center;
+}
+
+#data{
+    height: max-content;
+    background-color: wheat;
+}
+.cell{
+    background-color: rgb(255, 210, 152);
+    display: grid;
+    /* display: inline-block; */
+}
+
+#data2{
+    display: inline;
+    background-color: palegoldenrod;    
+}
+
+#data3{
+    /* text-align: center; */
+    /* display: grid; */
+    /* grid-template-columns: repeat(5,1fr); */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    background-color: rgb(160, 225, 245);    
+    border: 10px floralwhite solid;
+
+}
+
+#data3 .row{
+    
+    border: 1px black solid;
+    /* width: 100%; */
+    /* display: inline-block; */
+    display: grid;
+    /* grid-template-columns: repeat(5,1fr); */
+    grid-template-columns: 10% 20% 10% 10% 50%;
+    background-color: rgb(234, 255, 196);
+  
+    
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+ 
+
+}
+
+#data3 .row div{
+    display: table-caption;
+    word-wrap: break-word;
+    /* word-spacing: 2px; */
+    /* for borders apply and centering text */
+    /* height: 100%; */
+    /* width: 100%; */
+    /* if border here is activated do not use data3 row border */
+    /* border: 1px rgb(4, 5, 5) solid; */
+
+    /* remove width property if doesnt works properly */
+    /* width: fit-content; */
+    /* width: max-content; */
+    /* border: 3px rgb(253, 233, 193) solid; */
+    text-align: center;
+    /* border: 1px black solid; */
+    /* display: fl; */
+    -ms-grid-columns: min-content;
+}
+
+/* original :  #data3 div:nth-child(odd){ */
+
+/*     
+#data3 div{
+    border: 1px black solid;
+}
+*/
+
+#data3 a{
+    color: black;
+    align-self: center;
+    text-align: center;
+}
+
+
+
+#data3 .row img {
+
+    height: 70px;
+    width: 70px;
+
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    /* background-color: rgb(231, 255, 238); */
+    color: black;
+    /* align-self: center; */
+}
