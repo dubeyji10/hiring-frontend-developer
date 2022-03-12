@@ -1,3 +1,5 @@
+# A sample consumption of api used in this challenge - USING VANILLA JS .
+
 # Exercism Frontend Developer Job: Project
 
 Thanks for wanting to apply for the Frontend Developer Job role! 🥳
